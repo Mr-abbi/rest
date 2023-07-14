@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@10/swiper-bundle.min.css" />
+</head>
+<body>
+    <section>
+        <div class="container">
+            <div class="swiper mySwiper">
+                <div class="swiper-wrapper">
+                    <div class="swiper-slide">
+                        <div class="img-box">
+                            <img src="slider1.png" alt="">
+                        </div>
+                    </div>
+                    <div class="swiper-slide">
+                        <div class="img-box">
+                            <img src="slider2.png" alt="">
+                        </div>
+                    </div>
+                    <div class="swiper-slide">
+                        <div class="img-box">
+                            <img src="slider3.png" alt="">
+                        </div>
+                    </div>
+                    <div class="swiper-slide">
+                        <div class="img-box">
+                            <img src="slider4.png" alt="">
+                        </div>
+                    </div>
+                    <div class="swiper-slide">
+                        <div class="img-box">
+                            <img src="slider5.png" alt="">
+                        </div>
+                    </div>
+                    <div class="swiper-slide">
+                        <div class="img-box">
+                            <img src="slider6.png" alt="">
+                        </div>
+                    </div>
+                </div>
+                <div class="swiper-button-next"></div>
+                <div class="swiper-button-prev"></div>
+                <div class="swiper-pagination"></div>
+            </div>
+        </div>
+    </section>
+
+    <script src="https://cdn.jsdelivr.net/npm/swiper@10/swiper-bundle.min.js"></script>
+    <script type="text/javascript">
+            var swiper = new Swiper(".mySwiper", {
+      pagination: {
+        el: ".swiper-pagination",
+        type: "fraction",
+      },
+      navigation: {
+        nextEl: ".swiper-button-next",
+        prevEl: ".swiper-button-prev",
+      },
+    });
+    </script>
+</body>
+</html>
