@@ -587,6 +587,10 @@ SLIDER
     z-index: 1;
 }
 
+.slider{
+    object-fit: cover;
+}
+
 .slider h4{
     font-size: var(--font-small);
     font-weight: var(--fw7);
